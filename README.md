@@ -1,6 +1,6 @@
 # Intellivision_USB_adapter
-9/22/2018:
-Added two player version of code. Comments inside include bindings to be used in jzint emulator.
+10/7/2018
+Updated two player version of code so inputs will properly detect and player 1 cannot block player 2 from ever inputting commands. Comments inside include bindings to be used in jzint emulator.
 
 This code allows an Arduino Micro (I believe a Leonardo could be used with minor pin assignments) to detect as a USB keyboard on a PC with bindings set to the Intellivision controller. Of note is that the directional pad properly resolves as a 12-way pad like it does on the actual console.
 
